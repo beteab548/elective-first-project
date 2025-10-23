@@ -14,6 +14,7 @@ public class WeatherService {
         data.put("Addis Ababa", new Weather("Addis Ababa", 21.5, "Sunny"));
         data.put("Bahir Dar", new Weather("Bahir Dar", 24.3, "Partly Cloudy"));
         data.put("Hawassa", new Weather("Hawassa", 22.0, "Rainy"));
+        data.put("Jimma", new Weather("Jimma", 19.0, "Very Rainy"));
     }
 
     @GET
